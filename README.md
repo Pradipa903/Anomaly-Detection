@@ -29,3 +29,11 @@ The project implements a state-of-the-art anomaly detection system that learns f
 
 ## 🔍 Inference
 To run inference on a single image, use the provided `run_inference` function within the notebook or script, specifying the image path and object category (e.g., 'bottle').
+
+
+Use google colab for easier way:
+1. Open the file in google colab
+2. Access T4 GPU provided by colab
+3. Click Run all
+3. Upload kaggle.json from kaggle API key
+4. Wait until all code is run and try the model inference (download image from dataset and upload for the inference)
